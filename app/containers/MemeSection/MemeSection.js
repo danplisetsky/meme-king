@@ -132,7 +132,7 @@ class MemeSection extends Component {
 
         return (
             <div>
-                {showPreviewModal && <MemePreviewModal {...currentPreviewMeme}/>}
+                {showPreviewModal && <MemePreviewModal hideMemePreviewModal={this.hideMemePreviewModal} {...currentPreviewMeme}/>}
 
                 <div className={classNames('memes-section', { 'blur': showPreviewModal })}>
 
