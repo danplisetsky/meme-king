@@ -1,5 +1,16 @@
 .box-meme-preview-modal {
 
+  display: flex;
+  flex-direction: column;
+
+  .box-generator-modal__close {
+    position: relative;
+    align-self: center;
+    top: 60px;
+    left: 0;
+    right: 0;
+  }
+
   .image-loader {
     height: 300px;
     position: relative;

@@ -29,7 +29,7 @@ class MemePreviewModal extends React.Component {
         return (
             <Transition>
                 <PopupCover className="box-meme-preview-modal">
-                    <Icon name='REMOVE' onClick={hideMemePreviewModal} className='box-generator-modal__close' />
+                    <Icon name='REMOVE' onClick={hideMemePreviewModal} className='box-generator-modal__close' theme='white' />
                     <Grid>
                         <Row>
                             <Col xs={12}>
